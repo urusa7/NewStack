@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "596680357561",
+    "firebase_url": "https://newstack-3ee9e.firebaseio.com",
+    "project_id": "newstack-3ee9e",
+    "storage_bucket": "newstack-3ee9e.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:596680357561:android:587d60fbd034788a",
+        "android_client_info": {
+          "package_name": "com.example.urusa7.newstack"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "596680357561-ulr5r7qe10ah1i2ismj9rsu7vqfqdh0s.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.urusa7.newstack",
+            "certificate_hash": "5d06967b90c674167db091732f6f02482f2c4a9c"
+          }
+        },
+        {
+          "client_id": "596680357561-mu1e5dd952ior81unko8mfv4filjge9i.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyANYsVdE-hOcnLfXWsGtTtYyQzhjhCh2eE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "596680357561-mu1e5dd952ior81unko8mfv4filjge9i.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
