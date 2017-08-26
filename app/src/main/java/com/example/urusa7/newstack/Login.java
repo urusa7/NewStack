@@ -47,7 +47,8 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
             @Override
             public void onAuthStateChanged(@NonNull FirebaseAuth firebaseAuth) {
                 if (mUser!=null) {
-                    Intent intent = new Intent(Login.this, Home.class);
+                    Intent intent = new Intent(Login.this, Login.class);
+                    //Intent intent = new Intent(Login.this, Home.class);
                     intent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
                     startActivity(intent);
                 } else {
@@ -116,7 +117,8 @@ public class Login extends AppCompatActivity implements View.OnClickListener {
                     Toast.makeText(Login.this, "Login not successful", Toast.LENGTH_LONG).show();
                 } else {
                     mDialog.dismiss();
-                    startActivity(new Intent(Login.this, Home.class));
+                    startActivity(new Intent(Login.this, Login.class));
+                    //startActivity(new Intent(Login.this, Home.class));
                 }
             }
         });
